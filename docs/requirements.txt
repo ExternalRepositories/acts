@@ -12,7 +12,7 @@ beautifulsoup4==4.9.3
     # via bs4
 breathe==4.30.0
     # via
-    #   -r docs/requirements.in
+    #   -r requirements.in
     #   exhale
 bs4==0.0.1
     # via exhale
@@ -30,17 +30,17 @@ docutils==0.16
     #   sphinx
     #   sphinx-rtd-theme
 exhale==0.2.3
-    # via -r docs/requirements.in
+    # via -r requirements.in
 idna==2.10
     # via requests
 imagesize==1.2.0
     # via sphinx
 jinja2==3.0.1
     # via sphinx
-lxml==4.6.3
+lxml==4.6.5
     # via exhale
 m2r==0.2.1
-    # via -r docs/requirements.in
+    # via -r requirements.in
 markdown==3.3.4
     # via sphinx-markdown-tables
 markupsafe==2.0.1
@@ -56,7 +56,7 @@ pyparsing==2.4.7
 pytz==2021.1
     # via babel
 recommonmark==0.7.1
-    # via -r docs/requirements.in
+    # via -r requirements.in
 requests==2.25.1
     # via sphinx
 six==1.16.0
@@ -67,15 +67,15 @@ soupsieve==2.2.1
     # via beautifulsoup4
 sphinx==4.0.3
     # via
-    #   -r docs/requirements.in
+    #   -r requirements.in
     #   breathe
     #   exhale
     #   recommonmark
     #   sphinx-rtd-theme
 sphinx_markdown_tables==0.0.15
-    # via -r docs/requirements.in
+    # via -r requirements.in
 sphinx_rtd_theme==0.5.2
-    # via -r docs/requirements.in
+    # via -r requirements.in
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
 sphinxcontrib-devhelp==1.0.2
